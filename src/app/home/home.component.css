@@ -1,0 +1,36 @@
+.home img
+{
+    width: 100%;
+    height: 600px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.homecontent
+{
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-10%,-10%);
+}
+.homecontent h1
+{
+    color: #5d4716;
+    font-size: 50px;
+}
+.homecontent a
+{
+    margin-top: 10px;
+}
+
+@media screen and (max-width:400px)
+{
+    .home img
+{
+    height: 400px;
+}
+    .homecontent h1
+{
+    font-size: 40px;        
+}
+}
